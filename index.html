@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Dinar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom right, #334155, #1e40af, #1e3a8a);
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #appicon {
+            width: 200px;
+            height: 200px;
+            border-radius: 45px;
+            margin-bottom: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            transition: transform 0.3s ease;
+        }
+
+        #appicon:hover {
+            transform: scale(1.05);
+        }
+
+        #appstore {
+            width: 160px;
+            height: 48px;
+            transition: transform 0.3s ease;
+        }
+
+        #appstore:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="appicon.png" alt="Change Dinar App Icon" id="appicon">
+        <a href="https://apps.apple.com/us/app/change-dinar/id6742030993">
+            <img src="appstore.png" alt="Download on App Store" id="appstore">
+        </a>
+    </div>
+</body>
+</html>
